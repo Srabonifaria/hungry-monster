@@ -1,0 +1,19 @@
+.mealFood-item{
+    border: 1px solid red;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+width: 350px;
+}
+.meals-name{
+    font-size: 45px;
+    color: seagreen;
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+  
+}
+#meals{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+}
+    
